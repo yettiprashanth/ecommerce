@@ -1,0 +1,20 @@
+.home{
+    width:110%;
+    height: 100vh;
+    background-image: url('./images/onlinepayment.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: rgba(0,0,0,0.7); */
+}
+.home1{
+    display: none;
+}
+@media only screen and (max-width : 600px){
+.home1{
+   display:block;
+}
+}
